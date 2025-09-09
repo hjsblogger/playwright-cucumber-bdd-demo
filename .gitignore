@@ -1,5 +1,7 @@
-# Ignore generated feature files
 .features-gen/
-
-# Ignore macOS system files
+package-lock.json
 .DS_Store
+cucumber-report/
+log/
+node_modules/
+test-results/
