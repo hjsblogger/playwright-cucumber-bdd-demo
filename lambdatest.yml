@@ -30,7 +30,8 @@ console: false # To capture browser console logs (may impact test execution spee
 video: true # To capture video for debugging (may impact test execution speed)
 tunnel: false # To test pages behind a VPN/private network or from a local system. Refer to https://www.lambdatest.com/support/docs/testing-locally-hosted-pages/
 dedicatedProxy: false
-idleTimeout: 60000
+# idleTimeout capability is expected to be in the range of 120 - 1800 seconds
+idleTimeout: 1800
 actionTimeout: 60000       # 60 seconds for actions like click/fill
 navigationTimeout: 60000   # 60 seconds for navigation (page.goto)
 timeout: 120000              # 120 seconds test-level timeout (if supported)
